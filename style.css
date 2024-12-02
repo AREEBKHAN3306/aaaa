@@ -1,0 +1,134 @@
+
+* /* General Styling for smooth users experience.*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adding styling for Body*/
+body {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2e2e2e;
+}
+
+/* Adding styling for Header*/
+header {
+    background:#fa9c3b;
+    color: rgb(255, 255, 255);
+    padding: 1.3em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.7em;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #4d4d4d;
+    text-decoration: underline;
+}
+
+/* Adding styling for Different Section*/
+main {
+    padding: 2.2em;
+}
+
+section {
+    padding: 2.2em;
+    margin: 1.2em 0;
+    background-color: rgb(0, 0, 0);
+    border-radius: 7px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    color: #fa9c3b;
+}
+
+section p {
+    font-size: 1.3em;
+    margin-bottom: 1.2em;
+}
+
+/* Adding styles for Images*/
+section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 7px;
+    margin: 1.5em 0;
+}
+
+/* Adding styling for Submission Form*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #8b0000;
+    color: #ffffff;
+    padding: 1em 2.25em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+/* Adding styling for Footer*/
+footer {
+    background-color: #2c2c2c;
+    color: #fffefe;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+}
+img {
+    max-width: 100%; 
+    height: auto;
+}
